@@ -1,6 +1,6 @@
 # 🗄 Bitcoin Wallet Server ⚛️
 
-### Bitcoin Wallet Server made using apollo server and graphQL! 😎
+### Bitcoin Wallet Server made using apollo server, mongo and graphQL! 😎
 
 ## Getting Started
 
@@ -43,7 +43,9 @@ export const TypeDefsFees = gql`
 `;
 ```
 
-**Note**: Don't forget to set `.env` before running the server
+**Note**: 
+ - Don't forget to set `.env` before running the server;
+ - The server runs the  `URL: http://localhost:4000/ `
 
 ## License
 
